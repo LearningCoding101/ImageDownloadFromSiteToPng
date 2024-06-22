@@ -5,16 +5,33 @@
     <title>Image Downloader</title>
     <style>
         body {
-            width: 200px;
-            height: 150px;
+            width: 225px;
+            height: 60px;
             font-family: Arial, sans-serif;
+            font-weight: 600;
+            align-items: center;
+        }
+
+        html {
+            padding: 20px;
+            margin: 0;
+            padding-bottom: 50px;
+            padding-top: 10px;
+            border-style: solid;
+            border-color: #008DBA;
         }
     </style>
 </head>
 
 <body>
-    <h1>Download Images</h1>
-    <button id="download">Download Images</button>
+    <div style="display: flex; flex-direction: column-reverse; margin-bottom: 20px; align-items: center;">
+        <button id="download"
+            style="color:#008DBA;border-style:solid;
+        border-color: rgb(81, 81, 146);border-radius: 10px;
+        padding: 15px;background-color: rgb(234, 85, 149);color:white;font-weight:700; transform: translateY(-17px); z-index: 0;">Download
+            Images</button>
+        <img src="cat.gif" style="height: 50px; width: 50px; z-index: 1;">
+    </div>
     <script src="popup.js"></script>
 </body>
 
